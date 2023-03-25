@@ -12,6 +12,7 @@ console.log(c);
 for (let i = 5; i >= 0; i--) {
   console.log(i);
 }
+
 // 5
 // 4
 // 3
@@ -34,6 +35,12 @@ let modifArr = myArr.map(elem => {
 });
 
 console.log(modifArr)  // [ 18, 21,24 ]
+
+const f = {one: 44, two: 'Hello'};
+console.log(f)         // { one: 44, two: 'Hello" }
+
+
+
 
 
 
